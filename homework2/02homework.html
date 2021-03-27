@@ -10,6 +10,15 @@
     table, th, td {
   border: 1px solid black;
 }
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+body {
+    background-color:powderblue
+}
 </style>
 <body>
     <table style="width:50%">
@@ -45,6 +54,49 @@
         </tr>
 
     </table>
+    <br>
+
+    <form>
+        <label for="fname">Введіть ваше ім'я:</label><br>
+        <input type="text" id="fname" name="fname" value="Ім'я"><br>
+        <label for="lname">Введіть ваше прізвище:</label><br>
+        <input type="text" id="lname" name="lname" value="Прізвище">
+      </form>
+      <h2> Ваша стать?</h2>
+      <form>
+        <input type="radio" id="Чоловіча" name="стать" value="Чоловіча" checked="checked">
+        <label for="Чоловіча">Чоловіча</label><br>
+        <input type="radio" id="Жіноча" name="стать" value="Жіноча">
+        <label for="Жіноча">Жіноча</label><br>
+      </form>
+      <br>
+      <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="35">Ваш коментар/питання?</textarea>
+      </form>
+      <br>
+      <form action="/action_page.php">
+        <label for="місто">Виберіть ваше місто:</label>
+        <br>
+        <select id="місто" name="місто">
+          <option value="Виберіть ваше місто" disabled selected>Виберіть ваше місто</option>  
+          <option value="Львів">Львів</option>
+          <option value="Київ">Київ</option>
+          <option value="Тернопіль">Тернопіль</option>
+          <option value="Житомир">Житомир</option>
+        </select>
+    </form>
+        <br>
+        <h2>Вибір мови:</h2>
+        <form action="/action_page.php">
+            <input type="checkbox" id="Українська" name="Мова" value="Українська">
+            <label for="Українська"> Українська</label><br>
+            <input type="checkbox" id="Русский" name="Мова" value="Русский">
+            <label for="Русский"> Русский</label><br>
+            <input type="checkbox" id="English" name="Мова" value="English">
+            <label for="English"> English</label><br><br>
+            <input type="submit" value="Відправити">
+          </form> 
+
     
     <script src="02homework.js"></script>
 </body>
