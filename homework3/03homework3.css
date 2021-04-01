@@ -32,13 +32,13 @@ th{
     background-color: rgb(92, 91, 91);
     border: none;
     border-radius: 5px;
-    padding:3px 0px 3px 25px;
+    padding:1px 5px 3px 30px;
 }
 .search-input{
   position: right;
   width: 70%;
   height: 100%;
-  margin:auto;
+  margin:0 10px;
  }
 .arrow {
   width: 1px;
@@ -54,9 +54,10 @@ th{
   height:15px;
 }
 input{
-  background-image: url(images/loupe.png);
+  background-image:url(images/search.png);
   background-repeat: no-repeat;
-  
+  background-position-y: 3px;
+  background-position-x: 1px;
 }
 .color{
   color:grey;
