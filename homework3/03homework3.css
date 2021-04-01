@@ -54,8 +54,9 @@ th{
   height:15px;
 }
 input{
-  background-image: url(loupe.svg);
+  background-image: url(images/loupe.png);
   background-repeat: no-repeat;
+  
 }
 .color{
   color:grey;
