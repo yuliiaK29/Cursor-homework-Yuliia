@@ -43,7 +43,7 @@ a {
 }
 .header-navigation {
 position: absolute;
-width: 322px;
+width: 600px;
 height: 32px;
 left: 787px;
 top: 24px;
@@ -77,4 +77,69 @@ line-height: 64px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+}
+.text{
+    position: absolute;
+    width: 683px;
+height: 78px;
+left: 379px;
+top: 307px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+.header-button{
+    position: absolute;
+width: 262px;
+height: 56px;
+left: 589px;
+top: 417px;
+background: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-transform: capitalize;
+color: #010101;
+}
+.arrow{
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 693px;
+top: 580px;
+}
+.info{
+    position: relative;
+width: 1200px;
+height: 106px;
+left: 120px;
+top: 820px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.figures{ 
+width: 1200px;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 68px;
+line-height: 100px;
+color: #FFFFFF;
+}
+.images{
+    position: absolute;
+width: 1200px;
+height: 215px;
+left: 120px;
+top: 1046px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }

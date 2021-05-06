@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow-x:hidden;
+}
 .content {
     position: relative;
     width: 100%;
@@ -537,6 +540,6 @@ border-radius:50px;
     margin-top: 223px;
     margin-left: 210px;
 }
-.mail>img:hover{
-    width: 90px;
+.part_second_link:hover{
+    color: rgb(250, 6, 169);
 }
